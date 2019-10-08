@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>A19 My Todo List</title>
+</head>
+
+<body>
+
+  <div class="m-5">
+    <header class="mb-3">
+      <h4>My Todo</h4>
+      <div class="form-inline">
+        <input type="text" placeholder="add item" id="newTodo" class="form-control mr-2">
+        <button id="addBtn" class="btn btn-info">Add</button>
+      </div>
+    </header>
+	
+
+    <h5>Todo <span>( 點擊清單項目後, 項目移至 Done 清單 )</span></h5>
+    <ul id="my-todo" class="list-unstyled">
+      <!-- display todos here -->
+    </ul>
+    <h5>Done <span>( 點擊項目可再加回 Todo 清單 )</span></h5>
+    <ul id="done-item" class="list-unstyled">
+      <!-- display todos here -->
+    </ul>
+  </div>
+
+  <script src="todo.js"></script>
+</body>
+
+</html>

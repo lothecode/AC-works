@@ -1,0 +1,23 @@
+.checked {
+  color: rgb(140, 140, 140);
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.fa {
+  margin: 0 5px;
+  color: #bbb;
+}
+
+
+/* li>label[for='todo'] {
+  width: 250px;
+} */
+
+li>label{
+  width: 250px;
+}
+
+span {
+  font-size: 0.8rem;
+}
