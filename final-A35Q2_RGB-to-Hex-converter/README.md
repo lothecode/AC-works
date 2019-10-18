@@ -1,4 +1,4 @@
-#https://lothecode.github.io/AC-works/final-A35Q2_RGB-to-Hex-converter/
+https://lothecode.github.io/AC-works/final-A35Q2_RGB-to-Hex-converter/
 
 # RGB to Hex Converter
 A simple web application for RGB to Hex Converter
