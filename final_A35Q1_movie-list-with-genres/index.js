@@ -93,7 +93,6 @@
         </div>
       `
       })
-      //item.genres是一組只有genres的key的陣列, 將之傳入movieGenres的函式中
     }
     dataPanel.innerHTML = htmlContent
 
@@ -112,14 +111,12 @@
     genresList.innerHTML = genresContent
   }
 
-  //  傳入genres的key到函式, 用來找出genres這個物件裡key對應的value
   function movieGenres(ary) {
     let htmlContent = ''
     for (let i in ary) {
       htmlContent += `
         <span class="alert-sm alert-secondary rounded">${genres[ary[i]]}</span> 
         `
-      //  用變數來存取物件，使用bracket notation
     }
     return htmlContent
   }
@@ -141,7 +138,6 @@
         }
       }
     })
-    // console.log(genresData)
     initialPage = 1
     getTotalPages(genresData)
   }
@@ -161,9 +157,8 @@
     if (event.target.tagName === 'A') {
       initialPage = event.target.dataset.page
       getPageData(initialPage)
-      pageActive(initialPage)//頁面所在會是藍色
+      pageActive(initialPage)
     }
   })
 
-  // == end
 })()
