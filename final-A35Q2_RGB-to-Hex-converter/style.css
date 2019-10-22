@@ -15,6 +15,7 @@ body {
   width:55%;
   margin: 0px auto;
   padding: 15px 0;
+  color: #ffff00;
 }
 
 .color-area {
@@ -53,4 +54,5 @@ input[type=range]::-webkit-slider-thumb {
   width: 45%;
   background: rgba(245, 245, 245, 0.2);
   border-radius: 5px;
+  color:#000000;
 }
